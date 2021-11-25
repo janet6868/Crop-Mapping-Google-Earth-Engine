@@ -155,6 +155,7 @@ var binBottom = histArray.slice(1, 0, 1).project([0]);
 
 // Subset the values that represent the number of pixels per bin and project to
 // a single dimension. Result is a 1-D array.
+
 var nPixels = histArray.slice(1, 1, null).project([0]);
 
 // Chart the two arrays using the `ui.Chart.array.values` function.
