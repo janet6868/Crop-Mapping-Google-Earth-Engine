@@ -5,6 +5,7 @@ Map.addLayer(kofa, {color: 'green'}, 'image');
 
 //var Kofa = ee.Geometry.Polygon([8.2343635423279018,11.5365866666666683, 8.2905699222882845,11.5780959460610120]);
 //var geometry = Kofa.geometry();
+
 function maskL8sr(image) {
   // Bit 0 - Fill
   // Bit 1 - Dilated Cloud
